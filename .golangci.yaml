@@ -1,0 +1,11 @@
+linters:
+  enable-all: true
+linters-settings:
+  lll:
+    line-length: 120
+  goimports:
+    local-prefixes: github.com/mgorozii
+  gocritic:
+    enabled-tags:
+      - style
+      - experimental
