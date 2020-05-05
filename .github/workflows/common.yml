@@ -34,7 +34,7 @@ jobs:
         golangci-lint run --build-tags redis # for redis-storage
       
     - name: Test
-      run: go test -race -v .
+      run: go test -race -v ./...
     
     - name: Build
       run: |
