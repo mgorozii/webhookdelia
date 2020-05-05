@@ -1,5 +1,7 @@
 # Webhookdelia
 
+![](https://github.com/mgorozii/webhookdelia/workflows/common/badge.svg)
+
 Webhookdelia is a bot, implementing slack-like webhooks for telegram chats. Just start conversation with it or add it to the group chat and it'll send the example URL for sending messages. You could use [@webhookdelia](http://t.me/webhookdelia_bot) or setup it on your server. 
 The webhook URL is looks like `https://webhookdelia.mgorozii.com/send/<some secret uuid>?text=<text>`. Text may be either raw text or [html](https://core.telegram.org/bots/api#html-style).  
 

@@ -1,4 +1,4 @@
-name: Go
+name: common
 
 on:
   push:
@@ -32,10 +32,10 @@ jobs:
         golangci-lint run # for file-storage
         golangci-lint run --build-tags postgres # for postgres-storage
         golangci-lint run --build-tags redis # for redis-storage
-      
+
     - name: Test
       run: go test -race -v ./...
-    
+
     - name: Build
       run: |
         # build all variants
