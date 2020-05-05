@@ -38,7 +38,7 @@ jobs:
     
     - name: Build
       run: |
-        # lint all variants
+        # build all variants
         go build cmd/webhookdelia/main.go  # for files
         go build -tags postgres cmd/webhookdelia/main.go
         go build -tags redis cmd/webhookdelia/main.go
